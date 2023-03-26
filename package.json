@@ -1,0 +1,32 @@
+{
+  "name": "admonition-markdown-syntax",
+  "displayName": "Admonition Markdown Syntax",
+  "description": "Adds admonition as a language, mimicking markdown, thus giving you syntax highlighting inside admonition codeblocks",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "admonition-injection"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "admonition-injection",
+        "scopeName": "markdown.admonition.codeblock",
+        "path": "./syntaxes/admonition-injection.json",
+        "injectTo": [
+          "text.html.markdown"
+        ],
+        "embeddedLanguages": {
+          "meta.embedded.block.admonition": "text.html.markdown"
+        }
+      }
+    ]
+  }
+}
