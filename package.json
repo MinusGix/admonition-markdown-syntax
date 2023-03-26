@@ -5,6 +5,7 @@
   "author": {
     "name": "MinusGix"
   },
+  "publisher": "MinusGix",
   "repository": "https://github.com/MinusGix/admonition-markdown-syntax",
   "version": "0.0.1",
   "engines": {
