@@ -2,6 +2,10 @@
   "name": "admonition-markdown-syntax",
   "displayName": "Admonition Markdown Syntax",
   "description": "Adds admonition as a language, mimicking markdown, thus giving you syntax highlighting inside admonition codeblocks",
+  "author": {
+    "name": "MinusGix"
+  },
+  "repository": "https://github.com/MinusGix/admonition-markdown-syntax",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.76.0"
